@@ -1,19 +1,11 @@
 import argparse
 import concurrent.futures
 import json
-import torch
-import pandas as pd
-import random
 import time
-from detect_instruct import datatype_to_instruct
 
 import openai
-from transformers import (
-    AutoTokenizer,
-    AutoModelForCausalLM,
-    LlamaTokenizer,
-    AutoModel,
-)
+
+from detect_instruct import datatype_to_instruct
 
 
 def detect_contamination(model, question1, question2, instruct):

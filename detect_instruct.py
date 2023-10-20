@@ -25,6 +25,7 @@ If they are, please answer 'True', otherwise answer 'False'. Do not respond with
 If their question prompts are very similar and, without considering the solution process, they produce the same answer, we consider them to be the same question.
 """
 
+
 def datatype_to_instruct(data_type):
     if data_type == "code":
         return code_instruct

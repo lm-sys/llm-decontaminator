@@ -1,6 +1,7 @@
 import argparse
 import json
 
+
 def show(database, mode="all"):
 
     for each in database:

@@ -2,9 +2,9 @@ import argparse
 
 from sentence_transformers import SentenceTransformer
 
-from vector_db import build_database
-from llm_detect import llm_detect
 from detect_instruct import datatype_to_instruct
+from llm_detect import llm_detect
+from vector_db import build_database
 from show_samples import show
 
 if __name__ == "__main__":
