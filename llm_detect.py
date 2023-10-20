@@ -31,6 +31,7 @@ def detect_contamination(model, question1, question2, instruct):
                 ],
                 timeout=3,
                 temperature=0.3,
+                request_timeout=10,
             )
 
             pred = completion.choices[0].message.content
@@ -67,16 +68,14 @@ def llm_detect(model, database, output_path, instruct, max_workers=32):
         for case_results in futures:
             results.append([future.result() for future in case_results])
 
-    rephrase_test_num = 0
     for i in range(len(database)):
         database[i]["results"] = results[i]
-        rephrase_test_num += 1 if True in results[i] else 0
 
     with open(output_path, "w") as fout:
         for each in database:
             fout.write(json.dumps(each) + "\n")
 
-    return rephrase_test_num
+    return database
 
 
 
@@ -88,7 +87,7 @@ if __name__ == "__main__":
     parser.add_argument("--database_path", type=str, required=True, help="The path to the JSONL database file")
     parser.add_argument("--output_path", type=str, required=True, help="The path to the output JSONL file")
     parser.add_argument("--data-type", type=str, default="code", help="The name of the instruction function to use")
-    parser.add_argument("--max-workers", type=int, default=8, help="The maximum number of worker threads to use")
+    parser.add_argument("--max-workers", type=int, default=4, help="The maximum number of worker threads to use")
 
     args = parser.parse_args()
     model = args.model
@@ -103,7 +102,8 @@ if __name__ == "__main__":
         database = [json.loads(l) for l in fin]
 
     # call the llm_detect function with the parsed arguments
-    rephrase_test_num = llm_detect(model, database, output_path, instruct, max_workers)
+    database = llm_detect(model, database, output_path, instruct, max_workers)
+    rephrase_num = sum([1 if True in each["results"] else 0 for each in database])
 
-    print("Rephrased {} test cases.".format(rephrase_test_num))
+    print("Rephrased {} test cases.".format(rephrase_num))
 
