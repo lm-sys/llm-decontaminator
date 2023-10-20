@@ -24,12 +24,13 @@ def detect_contamination(model, question1, question2, instruct):
             prompt = "part1: \{\n" + question1 + "\n\}\npart2: \{\n" + question2 + "\n\}"
 
             completion = openai.ChatCompletion.create(
-                engine=model,
+                model=model,
                 messages=[
                     {"role": "system", "content": instruct},
                     {"role": "user", "content": prompt}
                 ],
                 timeout=3,
+                temperature=0.3,
             )
 
             pred = completion.choices[0].message.content
@@ -83,20 +84,23 @@ def llm_detect(model, database, output_path, instruct, max_workers=32):
 if __name__ == "__main__":
 
     parser = argparse.ArgumentParser(description="LLM Decontaminator")
-    parser.add_argument("--model", type=str, help="The name of the OpenAI model to use")
-    parser.add_argument("--database_path", type=str, help="The path to the JSONL database file")
-    parser.add_argument("--output_path", type=str, help="The path to the output JSONL file")
-    parser.add_argument("--data-type", type=str, help="The name of the instruction function to use")
-    parser.add_argument("--max-workers", type=int, default=32, help="The maximum number of worker threads to use")
+    parser.add_argument("--model", type=str, default="gpt-4", help="The name of the OpenAI model to use")
+    parser.add_argument("--database_path", type=str, required=True, help="The path to the JSONL database file")
+    parser.add_argument("--output_path", type=str, required=True, help="The path to the output JSONL file")
+    parser.add_argument("--data-type", type=str, default="code", help="The name of the instruction function to use")
+    parser.add_argument("--max-workers", type=int, default=8, help="The maximum number of worker threads to use")
 
     args = parser.parse_args()
     model = args.model
-    database = args.database
-    output_path = args.output
+    database_path = args.database_path
+    output_path = args.output_path
     data_type = args.data_type
     max_workers = args.max_workers
 
     instruct = datatype_to_instruct(data_type)
+
+    with open(database_path, "r") as fin:
+        database = [json.loads(l) for l in fin]
 
     # call the llm_detect function with the parsed arguments
     rephrase_test_num = llm_detect(model, database, output_path, instruct, max_workers)
