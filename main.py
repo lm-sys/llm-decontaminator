@@ -30,6 +30,7 @@ if __name__ == "__main__":
     database = build_database(bert_model, args.train_path, args.test_path, args.output_path, args.top_k, args.batch_size, args.device)
 
     instruct = datatype_to_instruct(args.data_type)
+    print("Starting LLM detection...")
     database = llm_detect(args.model, database, args.output_path, instruct, max_workers=args.max_workers)
 
     show(database, mode="all")
