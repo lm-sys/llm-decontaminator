@@ -59,16 +59,17 @@ python3 main.py --train_path ./data/train/CodeAlpaca-20k.jsonl \
 ## Real-world dataset
 
 
-| Training Set | Benchmark | Test Set Size | Rephrased Samples | Percentage (%) |
-|--------------|-----------|---------------|-------------------|----------------|
-| CodeAlpaca | HumanEval | 164 | 21 | 12.8 |
-| Evol-Instruct-Code | HumanEval | 164 | 13 | 7.93 |
-| CodeExercise-Python | HumanEval | 164 | 26 | 15.9 |
-| rossetacode | HumanEval | 164 | 4 | 2.44 |
-| MATH Train | MATH Test | 5000 | 79 | 1.58 |
-| MATHInstruct | MATH Test | 5000 | 769 | 15.4 |
-| FLAN CoT | MMLU | 14042 | 76 | 0.541 |
-| WizardLM-Evol-Instruct | MMLU | 14042 | 75 | 0.534 |
-| RedPajama-Data-1T (16G subset) | HumanEval | 164 | 14 | 8.53 |
-| The Stack (4G subset) | HumanEval | 164 | 31 | 18.9 |
-| StarCoder (2.4G subset) | HumanEval | 164 | 26 | 15.9 |
+
+| Training Set                  | Benchmark | Train Set Size | Test Set Size | Rephrased Samples | Percentage (%) |
+|-------------------------------|-----------|----------------|---------------|-------------------|----------------|
+| CodeAlpaca                    | HumanEval | 20k            | 164           | 21                | 12.8           |
+| Evol-Instruct-Code            | HumanEval | 78.3k          | 164           | 13                | 7.93           |
+| CodeExercise-Python           | HumanEval | 27k            | 164           | 26                | 15.9           |
+| rossetacode                   | HumanEval | 4.26k          | 164           | 4                 | 2.44           |
+| MATH Train                    | MATH Test | 7.5k           | 5000          | 79                | 1.58           |
+| MATHInstruct                  | MATH Test | 262k           | 5000          | 769               | 15.4           |
+| FLAN CoT                      | MMLU      | 184k           | 14042         | 76                | 0.541          |
+| WizardLM-Evol-Instruct        | MMLU      | 143k           | 14042         | 75                | 0.534          |
+| RedPajama-Data-1T (16G subset)| HumanEval | 1625k          | 164           | 14                | 8.53           |
+| The Stack (4G subset)         | HumanEval | 500k           | 164           | 31                | 18.9           |
+| StarCoder-Data (2.4G subset)  | HumanEval | 500k           | 164           | 26                | 15.9           |
