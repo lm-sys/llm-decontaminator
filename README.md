@@ -19,7 +19,6 @@ Based on the detection results, you can estimate the contamination of rephrased 
 ~~~bash
 git clone https://github.com/lm-sys/llm-decontaminator.git
 cd llm-decontaminator
-pip install -e .
 ~~~
 
 
@@ -48,9 +47,11 @@ with open("starcoderdata.jsonl", "w") as fout:
 ### End2End
 
 ~~~bash
-python3 main.py --train_path path/to/train.jsonl \
-    --test_path path/to/test.jsonl \
-    --output_path path/to/result.jsonl \
+# export OPENAI_API_KEY=sk-xxx
+# run llm-decontaminator
+python3 main.py --train_path ./data/train/CodeAlpaca-20k.jsonl \
+    --test_path ./data/test/HumanEval.jsonl \
+    --output_path ./data/database/CodeAlpacaDB.jsonl \
     --data-type code \
     --top_k 1
 ~~~

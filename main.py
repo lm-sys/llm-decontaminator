@@ -3,7 +3,7 @@ import argparse
 from sentence_transformers import SentenceTransformer
 
 from detect_instruct import datatype_to_instruct
-from llm_detect import llm_detect
+from llm_detect import llm_detect, check_openai_key
 from vector_db import build_database
 from show_samples import show
 
@@ -23,6 +23,8 @@ if __name__ == "__main__":
     parser.add_argument("--max-workers", type=int, default=2, help="The maximum number of worker threads to use")
 
     args = parser.parse_args()
+
+    check_openai_key()
 
     bert_model = SentenceTransformer(args.bert_model)
     database = build_database(bert_model, args.train_path, args.test_path, args.output_path, args.top_k, args.batch_size, args.device)

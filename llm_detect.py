@@ -1,11 +1,17 @@
 import argparse
 import concurrent.futures
 import json
+import os
 import time
 
 import openai
 
 from detect_instruct import datatype_to_instruct
+
+
+def check_openai_key():
+    if not "OPENAI_API_KEY" in os.environ:
+        raise Exception("Please set your OPENAI_API_KEY environment variable.")
 
 
 def detect_contamination(model, question1, question2, instruct):
@@ -82,6 +88,9 @@ if __name__ == "__main__":
     parser.add_argument("--max-workers", type=int, default=4, help="The maximum number of worker threads to use")
 
     args = parser.parse_args()
+
+    check_openai_key()
+
     model = args.model
     database_path = args.database_path
     output_path = args.output_path
