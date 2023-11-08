@@ -1,11 +1,11 @@
 import argparse
 import json
 import torch
-import pandas as pd
 import os
 import random
 
 import openai
+import pandas as pd
 from sentence_transformers import SentenceTransformer, util
 from transformers import (
     AutoTokenizer,

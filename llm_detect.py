@@ -4,10 +4,11 @@ import json
 import os
 import time
 
-import openai
+from openai import OpenAI
 
 from detect_instruct import datatype_to_instruct
 
+client = OpenAI()
 
 def check_openai_key():
     if not "OPENAI_API_KEY" in os.environ:
@@ -15,13 +16,13 @@ def check_openai_key():
 
 
 def detect_contamination(model, question1, question2, instruct):
-        
+
     retries = 0
     while retries < 30:
         try:
             prompt = "part1: \{\n" + question1 + "\n\}\npart2: \{\n" + question2 + "\n\}"
 
-            completion = openai.ChatCompletion.create(
+            completion = client.chat.completions.create(
                 model=model,
                 messages=[
                     {"role": "system", "content": instruct},
@@ -29,7 +30,6 @@ def detect_contamination(model, question1, question2, instruct):
                 ],
                 timeout=3,
                 temperature=0.3,
-                request_timeout=10,
             )
 
             pred = completion.choices[0].message.content

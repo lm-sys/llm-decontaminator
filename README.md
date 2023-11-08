@@ -19,6 +19,9 @@ Based on the detection results, you can estimate the contamination of rephrased 
 ~~~bash
 git clone https://github.com/lm-sys/llm-decontaminator.git
 cd llm-decontaminator
+conda create -n llm-detect python=3.9 -y
+conda activate llm-detect
+pip install -r requirement.txt
 ~~~
 
 
@@ -67,7 +70,7 @@ python3 main.py --train_path ./data/train/CodeAlpaca-20k.jsonl \
 | CodeExercise-Python           | HumanEval | 27k            | 164           | 26                | 15.9           |
 | rossetacode                   | HumanEval | 4.26k          | 164           | 4                 | 2.44           |
 | MATH Train                    | MATH Test | 7.5k           | 5000          | 79                | 1.58           |
-| MATHInstruct                  | MATH Test | 262k           | 5000          | 769               | 15.4           |
+| MATHInstruct (before Sep 30)  | MATH Test | 262k           | 5000          | 769               | 15.4           |
 | FLAN CoT                      | MMLU      | 184k           | 14042         | 76                | 0.541          |
 | WizardLM-Evol-Instruct        | MMLU      | 143k           | 14042         | 75                | 0.534          |
 | RedPajama-Data-1T (16G subset)| HumanEval | 1625k          | 164           | 14                | 8.53           |
