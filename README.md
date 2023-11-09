@@ -1,6 +1,6 @@
 # LLM Decontaminator
 
-| [Paper](https://arxiv.org/pdf/2311.04850.pdf) | [blog](https://lmsys.org/blog/2023-11-09-llm-decontaminator/) |
+| [Paper](https://arxiv.org/pdf/2311.04850.pdf) | [Blog](https://lmsys.org/blog/2023-11-09-llm-decontaminator/) |
 
 In this package, you can use LLM decontaminator to quantify a dataset's rephrased samples relative to a benchmark.
 Based on the detection results, you can estimate the contamination of rephrased samples in the dataset and remove them from the training set.
