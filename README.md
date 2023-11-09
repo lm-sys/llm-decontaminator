@@ -2,6 +2,8 @@
 
 | [Paper](https://arxiv.org/pdf/2311.04850.pdf) | [Blog](https://lmsys.org/blog/2023-11-09-llm-decontaminator/) |
 
+<img src="./assets/overview.png" alt="img" width="800"/>
+
 In this package, you can use LLM decontaminator to quantify a dataset's rephrased samples relative to a benchmark.
 Based on the detection results, you can estimate the contamination of rephrased samples in the dataset and remove them from the training set.
 
@@ -12,6 +14,7 @@ Based on the detection results, you can estimate the contamination of rephrased 
     - [Pre-Process](#pre-process)
     - [End2End](#end2end)
 - [Real-world dataset](#real-world-dataset)
+- [Dataset and training code](#dataset-and-training-code)
 
 
 ## Install
@@ -76,3 +79,8 @@ python3 main.py --train_path ./data/train/CodeAlpaca-20k.jsonl \
 | MATH Train                    | MATH Test | 7.5k           | 5000          | 79                | 1.6            |
 | FLAN CoT                      | MMLU      | 184k           | 14042         | 76                | 0.5            |
 | WizardLM-Evol-Instruct        | MMLU      | 143k           | 14042         | 75                | 0.5            |
+
+
+## Dataset and Training Code
+
+_Coming Soon!_
