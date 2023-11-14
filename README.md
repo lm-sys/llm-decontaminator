@@ -1,6 +1,6 @@
 # LLM Decontaminator
 
-| [Paper](https://arxiv.org/pdf/2311.04850.pdf) | [Blog](https://lmsys.org/blog/2023-11-09-llm-decontaminator/) |
+| [Paper](https://arxiv.org/pdf/2311.04850.pdf) | [Blog](https://lmsys.org/blog/2023-11-14-llm-decontaminator/) |
 
 <img src="./assets/overview.png" alt="img" width="800"/>
 
