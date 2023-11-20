@@ -1,0 +1,25 @@
+torchrun --nproc_per_node=1 --master_port=20001 rephrase_train.py \
+    --model_name_or_path /home/ec2-user/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-hf/snapshots/6fdf2e60f86ff2481f2241aaee459f85b5b0bbb9 \
+    --data_path /home/ec2-user/llm-decontaminator/data/rephrase/rephrase_gsm8k.tok \
+    --output_dir output_normal_7b_1k \
+    --model_max_length 1536 \
+    --per_device_train_batch_size 1 \
+    --gradient_accumulation_steps 1 \
+    --gradient_checkpointing False \
+    --torch_compile False \
+    --max_steps 100 \
+    --evaluation_strategy "no" \
+    --learning_rate 2e-5 \
+    --weight_decay 0.0 \
+    --adam_beta1 0.9 \
+    --adam_beta2 0.95 \
+    --warmup_ratio 0.05 \
+    --lr_scheduler_type "cosine" \
+    --logging_steps 1 \
+    --save_strategy "steps" \
+    --save_steps 1000 \
+    --save_total_limit 20 \
+    --bf16 True \
+    --tf32 True \
+    --fsdp "full_shard auto_wrap" \
+    --fsdp_config train/fsdp_config.json
