@@ -134,3 +134,4 @@ for subject in subjects:
     print(f"{subject} test set f1: {te_f1}")
     print(f"{subject} rephrase f1: {re_f1}")
     print(f"{subject} chinese f1: {ch_f1}")
+    
