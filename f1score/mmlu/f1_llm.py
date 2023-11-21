@@ -8,6 +8,8 @@ from openai import OpenAI
 
 client = OpenAI()
 
+MAXRETRY = 30
+
 def get_rephrase_english_questions(r_path):
     # get all the questions from the rephrase file
     questions = []
@@ -49,7 +51,7 @@ def compute_f1score(TP, FP, FN):
 def detect_contamination(model, question1, question2, instruct):
 
     retries = 0
-    while retries < 30:
+    while retries < MAXRETRY:
         try:
             prompt = "part1: \{\n" + question1 + "\n\}\npart2: \{\n" + question2 + "\n\}"
 

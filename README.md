@@ -100,6 +100,10 @@ python3 f1score/humaneval/f1_emb.py
 python3 f1score/humaneval/f1_llm.py
 ~~~
 
-The result is like:
+Table 5:
 
-<img src="./assets/f1_emb.png" alt="img" width="800"/>
+<img src="./assets/MMLU-f1score.png" alt="img" width="800"/>
+
+Table 6:
+
+<img src="./assets/HumanEval-f1score.png" alt="img" width="400"/>
