@@ -55,7 +55,7 @@ def get_embedding(model, text):
 
 subjects = ["abstract_algebra", "sociology", "high_school_us_history"]
 
-model = SentenceTransformer('multi-qa-MiniLM-L6-cos-v1')
+model = SentenceTransformer("multi-qa-MiniLM-L6-cos-v1")
 
 threshold = 0.5
 

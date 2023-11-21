@@ -28,7 +28,7 @@ def get_programs(r_path):
 
 
 languages = ["python", "c", "js"]
-model = SentenceTransformer('multi-qa-MiniLM-L6-cos-v1')
+model = SentenceTransformer("multi-qa-MiniLM-L6-cos-v1")
 
 threshold = 0.6
 
