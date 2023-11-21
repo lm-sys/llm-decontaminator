@@ -88,9 +88,14 @@ _Coming Soon!_
 
 ## F1 Score
 
-Reproduce paper's Table 6
+Reproduce paper's Table 5 & 6
 
 ~~~bash
-python3 f1score/f1_emb.py
-python3 f1score/f1_llm.py
+# MMLU
+python3 f1score/mmlu/f1_emb.py
+python3 f1score/mmlu/f1_llm.py
+
+# HumanEval
+python3 f1score/humaneval/f1_emb.py
+python3 f1score/humaneval/f1_llm.py
 ~~~

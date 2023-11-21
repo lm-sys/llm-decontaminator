@@ -2,7 +2,7 @@ import json
 import torch
 import random
 
-from sentence_transformers import SentenceTransformer, util
+from sentence_transformers import SentenceTransformer
 
 
 def compute_f1score(TP, FP, FN):
