@@ -99,3 +99,7 @@ python3 f1score/mmlu/f1_llm.py
 python3 f1score/humaneval/f1_emb.py
 python3 f1score/humaneval/f1_llm.py
 ~~~
+
+The result is like:
+
+<img src="./assets/f1_emb.png" alt="img" width="800"/>
