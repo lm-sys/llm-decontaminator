@@ -98,13 +98,13 @@ for subject in subjects:
 
     for i in range(len(origin_embs)):
         re_sim = torch.cosine_similarity(origin_embs[i], rephrase_embs[i], dim=0).item()
-        if re_sim > threshold:
+        if re_sim > threshold or rephrase_questions[i] == "":
             re_TP += 1
         else:
             re_FN += 1
 
         ch_sim = torch.cosine_similarity(origin_embs[i], chinese_embs[i], dim=0).item()
-        if ch_sim > threshold:
+        if ch_sim > threshold or chinese_questions[i] == "":
             ch_TP += 1
         else:
             ch_FN += 1
