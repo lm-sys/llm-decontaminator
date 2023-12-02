@@ -1,0 +1,100 @@
+{"language": "rephrase_english", "text": ""}
+{"language": "rephrase_english", "text": "In S_5, if p can be represented as (1, 2, 5, 4)(2, 3), what is the index of <p> within S_5?"}
+{"language": "rephrase_english", "text": "Identify all the zeros in the specified finite field of the stated polynomial whose coefficients are found in the same field: x^5 + 3x^3 + x^2 + 2x in Z_5"}
+{"language": "rephrase_english", "text": "Statement 1 | A non-commutative group's factor group is also non-commutative. Statement 2 | Assuming K is a regular subgroup of H and H is a regular subgroup of G, K will be a regular subgroup of G."}
+{"language": "rephrase_english", "text": "Compute the result of multiplying the specified polynomials in the provided polynomial ring. Let f(x) equal 4x minus 5, and g(x) equal 2x squared minus 4. The ring is Z_8[x]."}
+{"language": "rephrase_english", "text": "Statement 1 | Should a group contain an element of order 15, at least 8 elements of the same order are required. Statement 2 | Should a group have over 8 elements of order 15, a minimum of 16 elements of the same order are obligated."}
+{"language": "rephrase_english", "text": "Statement 1 | A factor group of G is isomorphic to every homomorphic image of a group G. Statement 2 | Factor groups of group G are identical (considering isomorphism) to its homomorphic images."}
+{"language": "rephrase_english", "text": "Statement 1 | The kernel being {0} is necessary and sufficient for a ring homomorphism to be injective. Statement 2 | Q qualifies as an ideal within R."}
+{"language": "rephrase_english", "text": "What is the degree of the specified field extension Q(sqrt(2) + sqrt(3)) over Q?"}
+{"language": "rephrase_english", "text": "Identify all the zeros in the specified finite field of the provided polynomial where the coefficients belong to that field. x^3 + 2x + 2 in Z_7"}
+{"language": "rephrase_english", "text": "Statement 1 | If H is a subset group of G, and a is an element of G, then the order of aH equals the order of Ha. Statement 2 | If H is a subset group of G and a and b are parts of G, then aH and Hb are either the same or separate."}
+{"language": "rephrase_english", "text": "Is it true that if A equals {1, 2, 3}, then S equals {(1, 1), (2, 2)} and is both symmetric and anti-symmetric?"}
+{"language": "rephrase_english", "text": "What is the arrangement of the factor group (Z_11 x Z_15)/(<1, 1>)?"}
+{"language": "rephrase_english", "text": "Identify the factorization of the polynomial x^3 + 2x^2 + 2x + 1 into linear factors in Z_7[x]."}
+{"language": "rephrase_english", "text": "What is the highest possible order of an element in S_n when n is equal to 10?"}
+{"language": "rephrase_english", "text": "Statement 1 | R acts as a division field for a certain polynomial above Q. Statement 2 | A field comprising 60 units exists."}
+{"language": "rephrase_english", "text": "What is the multiplicative group's inverse of -i, which includes {1, -1, i, -i}?"}
+{"language": "rephrase_english", "text": "Calculate the multiplication result within the provided set. Perform the operation (2,3)(3,5) in the context of Z_5 x Z_9."}
+{"language": "rephrase_english", "text": "Since zero does not have an inverse, the collection of all real numbers under the standard multiplication operation does not constitute a group. Answer: There is no inverse for zero."}
+{"language": "rephrase_english", "text": "Statement 1| Each group with an order of p^2, with p being prime, is Abelian. Statement 2 | Regarding a specific prime p, a Sylow p-subgroup of a group G is a regularly featured subgroup of G if and exclusively if it's the singular Sylow p-subgroup of G."}
+{"language": "rephrase_english", "text": "Statement 1 | If G and H are finite groups, then the magnitude of G + H equals to the product of the magnitudes of G and H. (G + H represents the internal direct product.) Statement 2 | In the case that r divides m and s is a divisor of n, then Z_m + Z_n possesses a subgroup that is isomorphic to Z_r + Z_s."}
+{"language": "rephrase_english", "text": "What is the sum of the provided polynomials within the specified polynomial ring? f(x) = 4x - 5 and g(x) = 2x^2 - 4x + 2 present in Z_8[x]. "}
+{"language": "rephrase_english", "text": "Statement 1 | In R^2, any pair of vectors has linear independence. Statement 2 | Assuming V is the span of (v1, ..., vk) and that {v1, ..., vk} maintain linear independence, then V's dimension equals k."}
+{"language": "rephrase_english", "text": "The collection of all nth roots of unity when multiplied in the domain of complex numbers constitutes what?"}
+{"language": "rephrase_english", "text": "Claim 1 | Each maximal ideal qualifies as a prime ideal. Claim 2 | Suppose I stands as a maximal ideal within a commutative ring R, then R/I equates to a field.\nReply: Not true, Not true."}
+{"language": "rephrase_english", "text": "If G is denoted as a set of all non-singular n x n matrices which have rational numbers for entries, what does G become under multiplication?"}
+{"language": "rephrase_english", "text": "Statement 1 | All groups having 42 members possess a typical subgroup with 7 members. Statement 2 | All groups with a total of 42 members contain a standard subgroup comprised of 8 members. "}
+{"language": "rephrase_english", "text": "Establish if the polynomial in Z[x], 8x^3 + 6x^2 - 9x + 24, conforms to an Eisenstein criterion of irreducibility above Q."}
+{"language": "rephrase_english", "text": "Statement 1 | A group consisting of 6 elements could possibly have 12 elements in its image under a homomorphism. Statement 2 | A homomorphism can indeed occur from a specific group of 6 elements to another group that contains 12 elements."}
+{"language": "rephrase_english", "text": "Statement 1 | A cyclic group's homomorphic image is also cyclic. Statement 2 | An Abelian group's homomorphic image remains Abelian. "}
+{"language": "rephrase_english", "text": "Statement 1 | Assuming H is a subgroup within group G and a is an element of G, then aH is equal to Ha. Statement 2 | Given H is a normal of G and a is an element of G, then for all h in H, ah equals ha."}
+{"language": "rephrase_english", "text": "Should (G, .) be a group in which (ab)^-1 = a^-1b^-1, for each a, b belonging to G, then what would G be termed as?"}
+{"language": "rephrase_english", "text": ""}
+{"language": "rephrase_english", "text": "It has been confirmed that group (G, 0) is abelian. So, what does that infer to be accurate for G?"}
+{"language": "rephrase_english", "text": "Statement 1 | Should T: V -> W be a linear transformation and should the dimension of V be less than the dimension of W, which is less than 1, then T has to be injective. Statement 2 | Assume dim(V) equals n and consider T: V -> V has linearity. If T is injective, then it's also a bijection."}
+{"language": "rephrase_english", "text": "What is the degree of the specified field extension Q(sqrt(2), sqrt(3)) over Q?"}
+{"language": "rephrase_english", "text": "Calculate the result of the multiplication in the specified ring. (-8)(20) in Z_26"}
+{"language": "rephrase_english", "text": ""}
+{"language": "rephrase_english", "text": "Identify the generator of the finite field Z_7."}
+{"language": "rephrase_english", "text": "Declaration 1 | Each permutation equates to a cycle. Declaration 2 | Each cycle equates to a permutation.\nResponse: Incorrect, Correct"}
+{"language": "rephrase_english", "text": "For the collection of integers Z, where the binary action \"*\" is stated as a*b = a + b + 1 for each a, b in Z, this forms a group. What is the group's identity element? "}
+{"language": "rephrase_english", "text": "What is the characteristic of the ring 3Z x Z_3?"}
+{"language": "rephrase_english", "text": "Rephrase: The initial claim is that an abelian group with a total of 45 members possesses a subgroup comprising 10 members. The second claim stipulates that a subgroup H from a group G is only a normal subgroup when the count of H's left cosets aligns with the count of H's right cosets.\nResponse: Incorrect, Incorrect"}
+{"language": "rephrase_english", "text": "Statement 1 | All integral domains having characteristic 0 are inexhaustible. Statement 2 | All integral domains possessing prime characteristic are limited."}
+{"language": "rephrase_english", "text": ""}
+{"language": "rephrase_english", "text": "Statement 1 | A homomorphism exists between two sets G and G'. Statement 2 | All homomorphisms are injective maps."}
+{"language": "rephrase_english", "text": "Statement 1 | An empty kernel might be possessed by a homomorphism. Statement 2 | A nontrivial homomorphism from a certain finite group into a certain infinite group cannot exist."}
+{"language": "rephrase_english", "text": "Identify all c values in Z_3 for which Z_3[x]/(x^3 + x^2 + c) comprises a field."}
+{"language": "rephrase_english", "text": "Statement 1 | R[x] is an integral domain when R is an integral domain. Statement 2 | If R stands for a ring and f(x) and g(x) constitute R[x], the degree of f(x)g(x) then equals the sum of the degree of f(x) and g(x)."}
+{"language": "rephrase_english", "text": "What is the highest possible order for an element of Z_8 x Z_10 x Z_24?"}
+{"language": "rephrase_english", "text": "Statement 1 | Each resolvable group possesses a prime-power order. Statement 2 | All groups with a prime-power order are resolvable."}
+{"language": "rephrase_english", "text": "Determine every c in Z_3 so that Z_3[x]/(x^3 + cx^2 + 1) forms a field."}
+{"language": "rephrase_english", "text": "Within the set G = {2, 4, 6, 8} under the multiplication operation modulo 10, what is the identity element?"}
+{"language": "rephrase_english", "text": "Statement 1 | Given G, H, and K as groups with an order of 4, a minimum of two can be considered isomorphic. Statement 2 | If the isomorph of Z_r + Z_s equals a subgroup Z_m + Z_n, it implies that r is a divisor of m and s is a divisor of n."}
+{"language": "rephrase_english", "text": "What is the degree of the field extension Q(sqrt(2)) over Q? "}
+{"language": "rephrase_english", "text": "Assertion 1 | Each free abelian group has no torsion. Assertion 2 | Each torsionless abelian group that is finitely generated is a free abelian group."}
+{"language": "rephrase_english", "text": "Statement 1 | 4x - 2 cannot be reduced over Z. Statement 2 | 4x - 2 cannot be reduced over Q."}
+{"language": "rephrase_english", "text": "What is the generator of the finite field Z_11?"}
+{"language": "rephrase_english", "text": "Statement 1 | Each group possessing an order of 159 is cyclical. Statement 2 | Each group holding an order of 102 has a substantial correct normal subgroup."}
+{"language": "rephrase_english", "text": "Statement 1 | Should H and K be subgroups of G and should one of them be a normal subgroup of G, then HK would also be a subgroup of G. Statement 2 | Every group having an order of p^2, with p being a prime number, falls under the category of Abelian groups."}
+{"language": "rephrase_english", "text": "Statement 1 | The oneness of a subring needs to be identical to the ring's oneness. Statement 2 | Each field is an indivisible domain."}
+{"language": "rephrase_english", "text": "Statement 1 | The collection of 2 x 2 matrices, consisting of integer entries and a determinant that is not zero, forms a group through matrix multiplication. Statement 2 | The collection of 2 x 2 matrices, featuring integer entries and a determinant of 1, comprises a group through matrix multiplication."}
+{"language": "rephrase_english", "text": "Statement 1 | Each resultant ring from all commutative rings is also a commutative ring. Statement 2 | If and only if 1 is in N, an ideal N in a ring R possessing unity 1 encompasses all of R."}
+{"language": "rephrase_english", "text": "Assuming A equals (1, 2, 3, 4) and ~ is represented by {(1, 2), (1, 3), (4, 2)}, what would ~ be?"}
+{"language": "rephrase_english", "text": "What is the number of homomorphisms from Z to Z_2?"}
+{"language": "rephrase_english", "text": "Assertion 1 | All fields are also rings. Assertion 2 | Each ring possesses a multiplicative identity. \nResponse: True, False"}
+{"language": "rephrase_english", "text": "Statement 1 | If 'R' represents a ring and f(x) and g(x) fall within R[x], then deg (f(x)+g(x)) equals the greatest value between deg f(x) and deg g(x). Statement 2 | If 'F' signifies a field, every ideal pertaining to F[x] is key."}
+{"language": "rephrase_english", "text": "Does the subset H of group (G,*) qualify as a group subjected to\nResponse: If a,b belong to H, then a * b^-1 is also part of H?"}
+{"language": "rephrase_english", "text": "Determine the factorization into linear factors in Z_5[x] of the polynomial x^4 + 4."}
+{"language": "rephrase_english", "text": "Statement 1 | Every positive integer rank has a corresponding free abelian group. Statement 2 | An abelian group generated finitely is free abelian if the count of its Betti number is equal to the count of elements in a particular generating set."}
+{"language": "rephrase_english", "text": "What is the inverse of a for the group (Z,*) where the operation a*b equals a+b+1 for all a, b in Z? "}
+{"language": "rephrase_english", "text": "What is the degree of the submitted field extension Q(sqrt(2)*sqrt(3)) in relation to Q? "}
+{"language": "rephrase_english", "text": "Determine the remainder of 3^47 divided by 23, applying Fermat's theorem."}
+{"language": "rephrase_english", "text": "What is the trait of the Z_3 x Z_3 ring?"}
+{"language": "rephrase_english", "text": "Statement 1 | Are a and b members of a group where if a doesn't equal b, then a^2 can't be the same as b^2? Statement 2 | Does the rotations set in a dihedral group create a cyclic subgroup?"}
+{"language": "rephrase_english", "text": "Statement 1 | For a group, does (ab)^{-2} equal b^{-2}a^{-2}? Statement 2 | Is it accurate to say that in a group (ab)^n equals a^nb^n?"}
+{"language": "rephrase_english", "text": "Assert 1 | For all n greater or equal to 3, S_n is not Abelian. Assert 2 | Supposing a is a transposition and is an m-rotation, and b is a transposition and is an n-rotation, then the magnitude of ab equals the least common multiple of m and n.\nResponse: True, False"}
+{"language": "rephrase_english", "text": "What is the feature of the Z x Z ring?"}
+{"language": "rephrase_english", "text": "Assertion 1 | In the case of n > 1, the collection {1,2, ..., n-1} constitutes a group under the operation of multiplication modulo n. Assertion 2 | An integer x exists such that when 63x is under modulo 100 operation, the result is 1.\nResponse: False, True"}
+{"language": "rephrase_english", "text": "Statement 1 | A nonzero subgroup K of a finitely generated free abelian group is free abelian. Statement 2 | A finitely generated free abelian group G's quotient by a nonzero subgroup K is also free abelian."}
+{"language": "rephrase_english", "text": "Claim 1 | A cyclic group's external direct product is cyclic. Claim 2 | The external direct product between D_3 and D_4 is the same as D_12.\nResponse: Incorrect, Incorrect"}
+{"language": "rephrase_english", "text": "Claim 1 | There is an infinite quantity of bases for each free abelian group that isn't zero. Claim 2 | A free abelian group with a minimum rank of 2 possesses an endless number of bases. \nResponse: Untrue, Correct"}
+{"language": "rephrase_english", "text": "Statement 1 | A cyclic group of order n exists for each positive integer n. Statement 2 | Each finite cyclic group possesses an element of any order that factors into the group's order."}
+{"language": "rephrase_english", "text": "Assertion 1 | In case a group incorporates an element of order 10, it must contain elements of orders 1, 2, and 5. Assertion 2 | Provided that a group includes an element of order 2 as well as an element of order 3, it must have an element of order 6.\nResponse: Correct, Incorrect."}
+{"language": "rephrase_english", "text": "Suppose sets A and B exist, with functions f: A -> B, g: B -> A ensuring that g(f(a)) equals a for any a in set A. Assertion 1 | The function g has to be injective without fail, Assertion 2 | The function g has to be surjective without fail.\nResponse: Not correct, Correct."}
+{"language": "rephrase_english", "text": "Statement 1 | If and only if the kernel includes only the identity element, a homomorphism is one-on-one. Statement 2 | A homomorphism can possibly result in 4 elements from a group containing 6 elements."}
+{"language": "rephrase_english", "text": "Assertion 1 | Given H and K as subsets of group G, then the equation |HK| = |H||K| / |H share K| stands correct. Assertion 2 | If there is a group with an order of 2p, where p represents an odd prime, it's either cyclic or analogous to D_p."}
+{"language": "rephrase_english", "text": "What is the value of T(-3,2) for T: Z x Z -> Z if T(1, 0) equals 3 and T(0, 1) equals -5?"}
+{"language": "rephrase_english", "text": "Calculate the result of the multiplication operation (12)(16) in the Z_24 ring. "}
+{"language": "rephrase_english", "text": "Statement 1 | Each permutation acts as a one-to-one function. Statement 2 | A function is a permutation only if it possesses a one-to-one characteristic. "}
+{"language": "rephrase_english", "text": "Statement 1 | In a finite group of order n, there is a subgroup of order d for every positive value that divides n. Statement 2 | If a is a member of a finite group, then the absolute value of a divides the absolute value of G."}
+{"language": "rephrase_english", "text": "Identify all cosets for the 4Z subgroup within 2Z.\nResponse: 4Z, 2 + 4Z"}
+{"language": "rephrase_english", "text": "Which of the below assertions holds correct?\nReply: From A = {x, y, z} to B = (1, 2), the quantity of relations is 64."}
+{"language": "rephrase_english", "text": "What's the highest possible order of an S_n element when n equals 6?"}
+{"language": "rephrase_english", "text": "Statement 1 | Q is a supplementary field of Z_2. Statement 2 | All non-permanent polynomials over a field possess a zero in a specific extension field."}
+{"language": "rephrase_english", "text": "Statement 1 | H being a subgroup of G and a being an element of G, aH is a subgroup of G exclusively when a is an element of H. Statement 2 | In the situation where H is a subgroup of G, and both a and b are elements of G, aH equals bH exclusively when ab is an element of H."}
+{"language": "rephrase_english", "text": "Identify all the zeros in the given polynomial x^2 + 1 within the specified finite field Z_2, which comprises of coefficients in said field. The answer is: 1."}
+{"language": "rephrase_english", "text": "What is the count of elements in the specified cyclic group: The cyclic subgroup of Z_30 produced by 25?"}
+{"language": "rephrase_english", "text": "What is the order of the element (4, 2) in Z_12 x Z_8? "}
+{"language": "rephrase_english", "text": "Statement 1 | Each ideal within a ring functions as a subring of that ring. Statement 2 | Each subring within all rings acts as an ideal of the ring. "}

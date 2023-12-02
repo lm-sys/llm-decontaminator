@@ -15,6 +15,7 @@ Based on the detection results, you can estimate the contamination of rephrased 
     - [End2End](#end2end)
 - [Real-world dataset](#real-world-dataset)
 - [Dataset and training code](#dataset-and-training-code)
+- [F1 Score](#f1-score)
 
 
 ## Install
@@ -84,3 +85,25 @@ python3 main.py --train_path ./data/train/CodeAlpaca-20k.jsonl \
 ## Dataset and Training Code
 
 _Coming Soon!_
+
+## F1 Score
+
+Reproduce paper's Table 5 & 6
+
+~~~bash
+# MMLU
+python3 f1score/mmlu/f1_emb.py
+python3 f1score/mmlu/f1_llm.py
+
+# HumanEval
+python3 f1score/humaneval/f1_emb.py
+python3 f1score/humaneval/f1_llm.py
+~~~
+
+Table 5:
+
+<img src="./assets/MMLU-f1score.png" alt="img" width="800"/>
+
+Table 6:
+
+<img src="./assets/HumanEval-f1score.png" alt="img" width="400"/>
