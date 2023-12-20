@@ -85,7 +85,7 @@ python3 main.py --train_path ./data/train/CodeAlpaca-20k.jsonl \
 
 ## Dataset and Training Code
 
-_Coming Soon!_
+Reproduce Llama-rephraser with this [document](train/README.md).
 
 ## F1 Score
 
