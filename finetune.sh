@@ -1,6 +1,6 @@
 torchrun --nproc_per_node=1 --master_port=20001 rephrase_train.py \
-    --model_name_or_path /home/ec2-user/.cache/huggingface/hub/models--meta-llama--Llama-2-7b-hf/snapshots/6fdf2e60f86ff2481f2241aaee459f85b5b0bbb9 \
-    --data_path /home/ec2-user/llm-decontaminator/data/rephrase/rephrase_gsm8k.tok \
+    --model_name_or_path /path/to/weight \
+    --data_path data/rephrase/rephrase_gsm8k.tok \
     --output_dir output_normal_7b_1k \
     --model_max_length 1536 \
     --per_device_train_batch_size 1 \
