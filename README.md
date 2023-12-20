@@ -16,6 +16,7 @@ Based on the detection results, you can estimate the contamination of rephrased 
 - [Real-world dataset](#real-world-dataset)
 - [Dataset and training code](#dataset-and-training-code)
 - [F1 Score](#f1-score)
+- [Citation](#citation)
 
 
 ## Install
@@ -107,3 +108,18 @@ Table 5:
 Table 6:
 
 <img src="./assets/HumanEval-f1score.png" alt="img" width="400"/>
+
+
+## Citation
+
+Please cite the following paper if you find the code or datasets helpful.
+~~~
+@misc{yang2023rethinking,
+      title={Rethinking Benchmark and Contamination for Language Models with Rephrased Samples}, 
+      author={Shuo Yang and Wei-Lin Chiang and Lianmin Zheng and Joseph E. Gonzalez and Ion Stoica},
+      year={2023},
+      eprint={2311.04850},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL}
+}
+~~~
